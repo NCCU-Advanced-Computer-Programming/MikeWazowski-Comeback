@@ -1,0 +1,5 @@
+C:\Users\Tommy\Desktop\WpfSokoban\Source\Orpius.Sokoban\bin\Debug\Orpius.Sokoban.dll
+C:\Users\Tommy\Desktop\WpfSokoban\Source\Orpius.Sokoban\bin\Debug\Orpius.Sokoban.pdb
+C:\Users\Tommy\Desktop\WpfSokoban\Source\Orpius.Sokoban\obj\Debug\Orpius.Sokoban.csprojResolveAssemblyReference.cache
+C:\Users\Tommy\Desktop\WpfSokoban\Source\Orpius.Sokoban\obj\Debug\Orpius.Sokoban.dll
+C:\Users\Tommy\Desktop\WpfSokoban\Source\Orpius.Sokoban\obj\Debug\Orpius.Sokoban.pdb

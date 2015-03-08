@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Orpius.Sokoban.Cell" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAIEMABAQAgEAAAIADAAAAAAAAAAA=</HashCode>
+      <FileName>Cell.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Orpius.Sokoban.Actor" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAgAAQAAEAEAAAQAAYAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>CellContents\Actor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.Treasure" Collapsed="true">
+    <Position X="3" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellContents\Treasure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.CellContents">
+    <Position X="1.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAIAJAAAQAgAAAAIABAAAAAAAAAAA=</HashCode>
+      <FileName>CellContents.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Orpius.Sokoban.FloorCell" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cells\FloorCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.GoalCell" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAEBAAAAAQAEABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cells\GoalCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.SpaceCell" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cells\SpaceCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.WallCell" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cells\WallCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.CommandBase">
+    <Position X="7" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.CommandManager">
+    <Position X="5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAALAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CommandManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="commandStack" />
+      <Field Name="redoStack" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Orpius.Sokoban.MoveDirectionAux" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.Game" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAESAAAAACAAEAEAICKAAAAEgABAAIABAAAgAAAIIAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Level" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Orpius.Sokoban.Jump">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Jump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.Level" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAgAAAAAAAhAAACAQAAAACQgggAAAAAAAgAAAIAgA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.LevelCode">
+    <Position X="14.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAIACAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>LevelCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.Location" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAgAAAAAAABAAAAIAAEAAAAAAAQAA=</HashCode>
+      <FileName>Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.Move">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.MoveBase" Collapsed="true">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MoveBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.PathSearch" Collapsed="true">
+    <Position X="14.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAQABAAIAAAAAEAAAABAAAEAAAAAIAAARAAABAA=</HashCode>
+      <FileName>PathSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.SokobanException" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SokobanException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.Commands.JumpCommand" Collapsed="true">
+    <Position X="5.75" Y="11" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAABAAEAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\JumpCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orpius.Sokoban.Commands.MoveCommand" Collapsed="true">
+    <Position X="8" Y="11" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAACAAAAABAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MoveCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Orpius.Sokoban.Direction" Collapsed="true">
+    <Position X="12.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Orpius.Sokoban.GameState" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggEAAAAAAAAAAAAQAAIAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
